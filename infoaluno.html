@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        legend{
+            margin: 10px;
+            font-size: x-large;
+        }
+        fieldset{
+            width: 50px;
+            margin-top: 200px;
+            margin-left:600px;
+        }
+
+
+    </style>
 </head>
 <body>
-
-<form method="get" action="mediadenota.php">
-    Media Aluno:
-    Nota 1 :<input type="number" name="n1"/>
-    Nota 2:<input type="number" name="n2"/>
-    <input type="submit" value="Media" name="Média" />
+    <form method="get" action="mediadenota.php">
+        <fieldset>
+            <legend>Media Aluno</legend>
+            Nota 1 :<input type="number" name="n1"/>
+            Nota 2:<input type="number" name="n2"/>
+            <input type="submit" value="Media" name="Média" />
+        </fieldset>
+    </form>
 </form>
 </body>
 </html>
